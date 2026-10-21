@@ -1,0 +1,11 @@
+name: Dry Run
+
+on:
+  workflow_dispatch:
+
+jobs:
+  dryrun:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo dryrun ok
+        run: echo 'dryrun ok'
